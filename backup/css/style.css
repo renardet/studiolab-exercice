@@ -108,9 +108,9 @@
     height: 15px;
     border-radius: 20px;
     background: green;
-    /* position: absolute; */
+    position: absolute;
     margin-left: 220px;
-    margin-top: -22px;
+    margin-top: -24px;
 } 
 
 .cercle-font-user {
@@ -154,7 +154,6 @@
     height: 15px;
     border-radius: 20px;
     background: red;
-    /* padding-top: -12px; */
 }
 
 .cercle-m {
@@ -172,13 +171,13 @@
 }
 
 .cercle-online {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 20px;
     background: green;
     position: absolute;
-    margin-left: 40px;
-    margin-top: -14px;
+    margin-left: 38px;
+    margin-top: 38px;
 } 
 
 .text-h {
@@ -315,14 +314,11 @@ float: center;
 
 .footer-left{
     margin-left: 20px;
-    text-align: left !important;
     margin-bottom: 35px;
 }
 
 .footer-right{
     /* float: right; */
     margin-right: 20px;
-    text-align: right !important;
+    text-align: right;
 }
-
-/* fin footer */
