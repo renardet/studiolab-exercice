@@ -149,6 +149,8 @@
     padding: 20px;
 }
 
+/* Début tableau Actions du jour */
+
 .cercle-h {
     width: 15px;
     height: 15px;
@@ -191,11 +193,21 @@
     font-size: 20px;
 }
 
+.action-jour {
+    list-style: none;
+    /* display: inline; */
+    display:flex;
+}
+
+
+
 .action{
     float: right;
     /* haut | droit | bas | gauche */
     margin: 2px 6px 2px 6px;
 }
+
+/* Fin tableau Actions du jour */
 
 /* Salle de conversation */
 .salle {
