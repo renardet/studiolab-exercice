@@ -30,8 +30,8 @@
 }
 
 .avocats {
-    color: black !important;
-    font-weight: normal !important;
+    color: #adadad !important;
+    font-size: 12px !important;
 }
 
 /* Fin logo Tailor & Associés */
@@ -43,7 +43,7 @@
     text-align: center !important;
 }    
 .text-gilmour {
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 /* Fin logo Gilmour */
@@ -87,14 +87,14 @@
 /* Fin pastille rouge menu gauche (messagerie) */
 
 /* Début menu Freddie Mercury */
-.souligner-active {
+/* .souligner-active {
     border-bottom: 2px solid black;
     padding-bottom: 20px;
 }
 .souligner {
     border-bottom: 1px solid grey;
     padding-bottom: 20px;
-}
+} */
 
 .freedie {
     text-align: center !important;
@@ -123,7 +123,7 @@
 
 /* Fin pastille verte messages non lues */
 
-.icon-sigis {
+/* .icon-sigis {
     background-color: grey;
     color: #f3f3f3;
     border-radius: 50%;
@@ -131,6 +131,15 @@
     height: 35px;
     margin-left: 10px;
     padding-right: 10px;
+} */
+
+.menu_icone{
+    border-spacing: 2px;
+    background-color: #838C9C;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .active {
@@ -193,17 +202,8 @@
     font-size: 20px;
 }
 
-.action-jour {
-    list-style: none;
-    /* display: inline; */
-    display:flex;
-}
-
-
-
 .action{
     float: right;
-    /* haut | droit | bas | gauche */
     margin: 2px 6px 2px 6px;
 }
 
