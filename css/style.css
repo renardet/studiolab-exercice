@@ -55,6 +55,14 @@
 
 /* Fin logo Gilmour */
 
+/* Debut champs recherche header */
+
+.search-sr{
+    border-radius: 50% !important;
+}
+
+/* Fin champs recherche header */
+
 /* Début pastille rouge menu header */
 .cercle-info {
     width: 15px;
