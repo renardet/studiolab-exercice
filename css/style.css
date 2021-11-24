@@ -2,7 +2,7 @@
 
 .principal {
     border-left: 1px solid grey;
-    height: 1500px;
+    height: 800px;
     width: 10px;
 }
 
@@ -119,8 +119,8 @@
 /* Début pastille verte messages non lues */
 
 .cercle-user {
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
     border-radius: 20px;
     background: green;
     /* position: absolute; */
@@ -151,7 +151,7 @@
 
 .menu_icone{
     border-spacing: 2px;
-    background-color: #838C9C;
+    background-color: #838C9C; 
     border: 1px solid transparent;
     border-radius: 50px;
     width: 40px;
@@ -159,7 +159,7 @@
 }
 
 .active {
-    background-color: #adadad;
+    background-color: #838C9C;
     border-radius: 20px;
     color: #f3f3f3;
 }
@@ -317,6 +317,43 @@ float: center;
 }
 
 /* Fin salle de conversation */
+
+/* Début liste users */
+.size-user {
+    font-size: 13px;
+}
+
+.size-user-2 {
+    font-size: 12px;
+    color: lightgray;
+}
+
+.cercle-room {
+        width: 8px;
+        height: 8px;
+        border-radius: 5px;
+        background: black;
+}
+
+.trio-img {
+    position: relative;
+}
+
+.une-img {
+    position: absolute;
+}  
+
+.deux-img {
+    position: absolute;
+    top:18px; left: 22px;
+}
+
+.trois-img {
+    position: absolute;
+    top: 12px; left: 0px;
+}
+
+/* Fin liste users */
 
 /* les écrans de moin de 575.98px utilisent cette regle css */
 @media (max-width: 575.98px) {
