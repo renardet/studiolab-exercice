@@ -119,20 +119,21 @@
 /* Début pastille verte messages non lues */
 
 .cercle-user {
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     border-radius: 20px;
     background: green;
     /* position: absolute; */
-    margin-left: 220px;
-    margin-top: -22px;
+    /* margin-left: 220px;
+    margin-top: -20px; */
 } 
 
 .cercle-font-user {
-    color: black;
+    color: white;
     font-size: 11px;
-    margin-left: -11px;
+    margin-left: 24px;
     margin-top: -8px;
+    text-align: center;
 }
 
 
@@ -293,7 +294,8 @@ float: center;
 }
 
 .user-time {
-    float: right;
+    margin-left: 12px;
+    margin-top: 8px;
 }
 
 .user-on {
