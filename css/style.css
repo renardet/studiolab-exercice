@@ -335,9 +335,9 @@ float: center;
 /* Fin salle de conversation */
 
 /* Début liste users */
-.freddie [
+.freddie {
     color: #838C9C;
-]
+}
 
 .icone-lateral-2 {
     text-align: center !important;
